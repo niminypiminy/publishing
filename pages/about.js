@@ -24,7 +24,7 @@ const About = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/9a77d407-87dd-444f-9f67-4caf42256e5b?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/d5e40ec3-5aca-4170-8f53-6b9f87d02408?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <div className="about-max-width">
@@ -46,14 +46,28 @@ const About = (props) => {
         </div>
         <div className="about-container1">
           <h1 className="about-text">About</h1>
-          <span className="about-text1">
-            Robinson &amp; Sroykeeree is a reputable publishing company that
-            focuses on publishing high-quality non-fiction legal books for
-            university students and engaging fiction novels for children. Our
-            publications often explore educational themes related to law,
-            economics, or philosophy. We are dedicated to offering distinctive
-            and compelling educational materials that support students in
-            achieving academic success.
+          <span className="about-text01">
+            <span className="about-text02">
+              We mostly publish non-fiction books in the areas of law,
+              philosophy, history, politics, and economics. We also publish
+              fiction novels. comic books and children books which include
+              similar themes and subject areas, or discuss important educational
+              topics such as the origin of life, or convey profound
+              philosophical or scientific concepts. Books in other disciplines
+              may be published if they offer distinctive and compelling
+              educational materials for students. 
+            </span>
+            <br></br>
+            <br></br>
+            <span>
+              For non-fiction books and articles, we do require a demonstrated
+              level of expertise in the subject matter. An advanced degree in a
+              related field, for example, or in the case of historical events or
+              biographies, proof of extensive research with proper citations.  
+            </span>
+            <br></br>
+            <br></br>
+            <br></br>
           </span>
         </div>
         <footer className="about-footer7 thq-section-padding">
@@ -62,7 +76,7 @@ const About = (props) => {
               <div className="thq-divider-horizontal"></div>
               <div className="about-row">
                 <div className="about-container2">
-                  <span className="about-text2 thq-body-small">
+                  <span className="about-text09 thq-body-small">
                     © 2024 Robinson &amp; Sroykeeree LP
                   </span>
                 </div>
@@ -126,13 +140,17 @@ const About = (props) => {
             font-family: 'Times New Roman';
             font-weight: 400;
           }
-          .about-text1 {
+          .about-text01 {
             width: 40%;
             font-size: 16px;
             font-style: normal;
             margin-top: var(--dl-space-space-unit);
             font-family: 'Times New Roman';
             font-weight: 400;
+          }
+          .about-text02 {
+            width: 40%;
+            margin-top: var(--dl-space-space-unit);
           }
           .about-footer7 {
             width: 100%;
@@ -169,15 +187,33 @@ const About = (props) => {
             display: flex;
             align-items: flex-start;
           }
-          .about-text2 {
+          .about-text09 {
             font-size: 16px;
             font-style: normal;
             font-family: 'Times New Roman';
             font-weight: 400;
           }
+          @media (max-width: 991px) {
+            .about-text {
+              width: 60%;
+            }
+            .about-text01 {
+              width: 60%;
+              font-size: 16px;
+              font-style: normal;
+              font-family: Times New Roman;
+              font-weight: 400;
+            }
+          }
           @media (max-width: 767px) {
             .about-max-width {
               padding: var(--dl-space-space-unit);
+            }
+            .about-text {
+              width: 80%;
+            }
+            .about-text01 {
+              width: 80%;
             }
             .about-row {
               gap: var(--dl-space-space-oneandhalfunits);
@@ -187,6 +223,12 @@ const About = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .about-text {
+              width: 80%;
+            }
+            .about-text01 {
+              width: 80%;
+            }
             .about-max-width1 {
               gap: var(--dl-space-space-oneandhalfunits);
             }

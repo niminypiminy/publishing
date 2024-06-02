@@ -21,7 +21,7 @@ const Home = (props) => {
           />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/9a77d407-87dd-444f-9f67-4caf42256e5b?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/d5e40ec3-5aca-4170-8f53-6b9f87d02408?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <header data-role="Header" className="home-header">
@@ -47,10 +47,12 @@ const Home = (props) => {
           <div className="home-hero section-container">
             <div className="home-max-width1 max-content-container">
               <div className="home-heading-container">
-                <h1 className="home-text">Get your book published.</h1>
+                <h1 className="home-text">Publish your book with us.</h1>
                 <span className="home-text01">
-                  We specialize in the publication and distribution of legal
-                  books in Thailand.
+                  We specialize in the publication and distribution of fiction
+                  and non-fiction books, primarily in the fields of law,
+                  history, economics, politics, and philosophy. We also publish
+                  comic books and childrens books, with similar themes.
                 </span>
                 <Link href="/manuscript">
                   <a className="home-link2 button-primary button-lg button">
@@ -107,7 +109,7 @@ const Home = (props) => {
                   <span className="home-text02">our services</span>
                   <h2 className="home-text03">
                     <span>
-                      We provide a wide range of
+                      A wide range of
                       <span
                         dangerouslySetInnerHTML={{
                           __html: ' ',
@@ -131,8 +133,7 @@ const Home = (props) => {
                   <span className="home-text07">Design</span>
                   <span className="home-text08">
                     Many authors need help with formatting, illustrations and
-                    cover designs; Our team provides these solutions, free of
-                    charge, for all accepted manuscripts. 
+                    cover designs. 
                   </span>
                   <span className="home-text09">Learn more</span>
                 </div>
@@ -144,11 +145,11 @@ const Home = (props) => {
                       className="home-image7"
                     />
                   </div>
-                  <span className="home-text10">Publish</span>
+                  <span className="home-text10">Distribution</span>
                   <span className="home-text11">
                     <span>
-                      We work with our printing partners to publish your book.
-                      We do not charge authors for publication. 
+                      We will distribute your book to our wide range of
+                      retailers in Bangkok.  
                     </span>
                     <br></br>
                   </span>
@@ -162,17 +163,15 @@ const Home = (props) => {
                       className="home-image8"
                     />
                   </div>
-                  <span className="home-text15">
-                    Distribute
+                  <span className="home-text15">Revenue</span>
+                  <span className="home-text16">
+                    We offer authors a generous percentage for each book sold,
+                    paid out monthly.
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
                       }}
                     />
-                  </span>
-                  <span className="home-text16">
-                    Authors will have the opportunity to earn a share of sales
-                    without any fees, with payments made monthly.
                   </span>
                   <span className="home-text17">Learn more</span>
                 </div>
@@ -199,21 +198,21 @@ const Home = (props) => {
                   <span className="home-text23">Send us your manuscript</span>
                   <span className="home-text24">
                     Authors are invited to submit their manuscripts accompanied
-                    by a professionally written one-page author profile. Kindly
-                    provide us with a brief overview of your work and your
-                    biography. If your project captures our interest, we will
-                    provide you with a secure link for manuscript submission.
+                    by a one-page author profile. Kindly provide us with a brief
+                    overview of your work and your biography. If your project
+                    captures our interest, we will provide you with a secure
+                    link for manuscript submission.
                   </span>
                 </div>
               </div>
               <div className="home-step1">
                 <span className="home-text25">02</span>
                 <div className="home-container09">
-                  <span className="home-text26">Review stage</span>
+                  <span className="home-text26">Review and editing phase</span>
                   <span className="home-text27">
                     Upon receiving your submission, our editorial team will
                     carefully review your work. If we determine that it meets
-                    our publishing criteria, we will extend an offer to you.
+                    our publishing criteria, we will extend you an offer.
                   </span>
                 </div>
               </div>
@@ -224,12 +223,8 @@ const Home = (props) => {
                     Publication and Distribution. 
                   </span>
                   <span className="home-text30">
-                    At Robinson &amp; Sroykeeree Publishing LP, we are committed
-                    to supporting authors in bringing their books to life and
-                    reaching readers through our wide range of distribution
-                    channels - all without any fees for accepted manuscripts.
-                    Authors also have the opportunity to earn a share of the
-                    sales from each book sold on our platform.
+                    After the terms are negotiated, we will distribute your
+                    product to retailers and online platforms.
                   </span>
                 </div>
               </div>
@@ -239,11 +234,10 @@ const Home = (props) => {
             <div className="home-max-width4 max-content-container">
               <h2 className="home-text31">Let’s collaborate!</h2>
               <span className="home-text32">
-                We understand that writing a book can be a challenging journey.
                 When you partner with us, you&apos;ll have a dedicated team of
-                professionals supporting you through every stage of the process,
-                from design to getting your book out into the world. And most
-                importantly, we believe in fair compensation for your hard work.
+                professionals supporting you through every stage of the process.
+                From design to distribution, we&apos;ll help you get your book
+                onto the market.
               </span>
               <Link href="/contact">
                 <a className="home-link3 button-lg button-secondary-white button">
@@ -347,7 +341,8 @@ const Home = (props) => {
           }
           .home-text01 {
             color: var(--dl-color-scheme-black);
-            font-size: 1.5rem;
+            width: 75%;
+            font-size: 1.2rem;
             font-style: normal;
             text-align: center;
             font-family: 'Times New Roman';
@@ -818,6 +813,12 @@ const Home = (props) => {
               max-width: 100%;
               margin-bottom: 42px;
             }
+            .home-text {
+              font-size: 3rem;
+            }
+            .home-text01 {
+              color: var(--dl-color-scheme-black);
+            }
             .home-gallery {
               flex-direction: column;
             }
@@ -840,6 +841,49 @@ const Home = (props) => {
             }
             .home-services {
               width: 100%;
+            }
+            .home-text08 {
+              font-family: Times New Roman;
+            }
+            .home-text10 {
+              font-size: 24px;
+            }
+            .home-text11 {
+              font-family: Times New Roman;
+            }
+            .home-text15 {
+              font-size: 24px;
+              font-style: normal;
+              font-family: Times New Roman;
+              font-weight: 700;
+            }
+            .home-text16 {
+              font-family: Times New Roman;
+            }
+            .home-text24 {
+              color: var(--dl-color-scheme-darkblue);
+            }
+            .home-text26 {
+              color: var(--dl-color-scheme-darkblue);
+              font-size: 24px;
+              font-family: Times New Roman;
+              line-height: 31px;
+            }
+            .home-text27 {
+              color: var(--dl-color-scheme-darkblue);
+            }
+            .home-text29 {
+              color: var(--dl-color-scheme-darkblue);
+            }
+            .home-text30 {
+              color: var(--dl-color-scheme-darkblue);
+              font-family: Times New Roman;
+            }
+            .home-text32 {
+              color: var(--dl-color-scheme-white);
+              font-size: 1.2rem;
+              font-family: Times New Roman;
+              line-height: 26px;
             }
           }
           @media (max-width: 767px) {

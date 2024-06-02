@@ -18,7 +18,7 @@ const Manuscript = (props) => {
           <meta property="og:description" content="Sumbit your manuscript" />
           <meta
             property="og:image"
-            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/9a77d407-87dd-444f-9f67-4caf42256e5b?org_if_sml=1&amp;force_format=original"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/d5e40ec3-5aca-4170-8f53-6b9f87d02408?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <div className="manuscript-max-width">
@@ -42,9 +42,8 @@ const Manuscript = (props) => {
           <form className="manuscript-form">
             <h1 className="manuscript-text">Share a little about yourself</h1>
             <span className="manuscript-text1">
-              We are excited to hear more about your manuscript. Please share
-              some details about your work and a brief biography, and our
-              editors will be in touch with you shortly.
+              Please share a few details about your book and a brief biography,
+              and our editors will be in touch with you shortly.
             </span>
             <input
               type="text"
@@ -248,6 +247,7 @@ const Manuscript = (props) => {
             }
             .manuscript-text1 {
               width: 80%;
+              font-family: Times New Roman;
             }
             .manuscript-textinput {
               width: 60%;
