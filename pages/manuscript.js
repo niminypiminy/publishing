@@ -130,6 +130,7 @@ const Manuscript = (props) => {
             width: 100%;
             height: auto;
             display: flex;
+            margin-top: var(--dl-space-space-fourunits);
             align-items: center;
             flex-direction: column;
             justify-content: center;

@@ -135,7 +135,7 @@ const Contact = (props) => {
             height: auto;
             display: flex;
             align-items: center;
-            padding-top: var(--dl-space-space-twounits);
+            padding-top: var(--dl-space-space-fourunits);
             flex-direction: column;
             justify-content: center;
           }

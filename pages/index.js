@@ -41,30 +41,6 @@ const Home = (props) => {
                 </a>
               </Link>
             </div>
-            <div data-role="BurgerMenu" className="home-burger-menu">
-              <svg viewBox="0 0 1024 1024" className="home-icon">
-                <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-              </svg>
-            </div>
-            <div data-role="MobileMenu" className="mobile-menu">
-              <div className="home-nav1">
-                <div className="home-container01">
-                  <img alt="image" src="/logo1-200h.png" />
-                  <div
-                    data-role="CloseMobileMenu"
-                    className="home-close-mobile-menu"
-                  >
-                    <svg viewBox="0 0 1024 1024" className="home-icon2">
-                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                    </svg>
-                  </div>
-                </div>
-                <NavigationLinks rootClassName="navigation-links-root-class-name9"></NavigationLinks>
-                <button className="button-secondary button button-md">
-                  Get in touch
-                </button>
-              </div>
-            </div>
           </div>
         </header>
         <main className="home-main">
@@ -83,41 +59,41 @@ const Home = (props) => {
                 </Link>
               </div>
               <div className="home-gallery">
-                <div className="home-container02">
+                <div className="home-container01">
                   <img
                     alt="image"
                     src="/designer-1000w.jpeg"
-                    className="home-image01"
+                    className="home-image"
+                  />
+                </div>
+                <div className="home-container02">
+                  <img
+                    alt="image"
+                    src="/designer%20(7)-1000w.jpeg"
+                    className="home-image1"
+                  />
+                  <img
+                    alt="image"
+                    src="/designer%20(6)-1000w.jpeg"
+                    className="home-image2"
                   />
                 </div>
                 <div className="home-container03">
                   <img
                     alt="image"
-                    src="/designer%20(7)-1000w.jpeg"
-                    className="home-image02"
-                  />
-                  <img
-                    alt="image"
-                    src="/designer%20(6)-1000w.jpeg"
-                    className="home-image03"
-                  />
-                </div>
-                <div className="home-container04">
-                  <img
-                    alt="image"
                     src="/designer%20(4)-1000w.jpeg"
-                    className="home-image04"
+                    className="home-image3"
                   />
-                  <div className="home-container05">
+                  <div className="home-container04">
                     <img
                       alt="image"
                       src="/rectangle%2095%20%5B2%5D-1000w.png"
-                      className="home-image05"
+                      className="home-image4"
                     />
                     <img
                       alt="image"
                       src="/rectangle%2095%20%5B1%5D-1000w.png"
-                      className="home-image06"
+                      className="home-image5"
                     />
                   </div>
                 </div>
@@ -145,11 +121,11 @@ const Home = (props) => {
               </div>
               <div className="home-cards-container">
                 <div className="home-services-card services-card">
-                  <div className="home-container06">
+                  <div className="home-container05">
                     <img
                       alt="image"
                       src="/dice-5-200h.png"
-                      className="home-image07"
+                      className="home-image6"
                     />
                   </div>
                   <span className="home-text07">Design</span>
@@ -161,11 +137,11 @@ const Home = (props) => {
                   <span className="home-text09">Learn more</span>
                 </div>
                 <div className="home-services-card1 services-card">
-                  <div className="home-container07">
+                  <div className="home-container06">
                     <img
                       alt="image"
                       src="/website-200h.png"
-                      className="home-image08"
+                      className="home-image7"
                     />
                   </div>
                   <span className="home-text10">Publish</span>
@@ -179,11 +155,11 @@ const Home = (props) => {
                   <span className="home-text14">Learn more</span>
                 </div>
                 <div className="home-services-card2 services-card">
-                  <div className="home-container08">
+                  <div className="home-container07">
                     <img
                       alt="image"
                       src="/file-document-200w.png"
-                      className="home-image09"
+                      className="home-image8"
                     />
                   </div>
                   <span className="home-text15">
@@ -219,7 +195,7 @@ const Home = (props) => {
               </h2>
               <div className="home-step">
                 <span className="home-text22">01</span>
-                <div className="home-container09">
+                <div className="home-container08">
                   <span className="home-text23">Send us your manuscript</span>
                   <span className="home-text24">
                     Authors are invited to submit their manuscripts accompanied
@@ -232,7 +208,7 @@ const Home = (props) => {
               </div>
               <div className="home-step1">
                 <span className="home-text25">02</span>
-                <div className="home-container10">
+                <div className="home-container09">
                   <span className="home-text26">Review stage</span>
                   <span className="home-text27">
                     Upon receiving your submission, our editorial team will
@@ -243,7 +219,7 @@ const Home = (props) => {
               </div>
               <div className="home-step2">
                 <span className="home-text28">03</span>
-                <div className="home-container11">
+                <div className="home-container10">
                   <span className="home-text29">
                     Publication and Distribution. 
                   </span>
@@ -282,7 +258,7 @@ const Home = (props) => {
             <div className="home-credits">
               <div className="thq-divider-horizontal"></div>
               <div className="home-row">
-                <div className="home-container12">
+                <div className="home-container11">
                   <span className="home-text33 thq-body-small">
                     © 2024 Robinson &amp; Sroykeeree LP
                   </span>
@@ -341,37 +317,6 @@ const Home = (props) => {
             text-decoration: none;
             background-color: var(--dl-color-scheme-lightbrown);
           }
-          .home-burger-menu {
-            display: none;
-          }
-          .home-icon {
-            fill: var(--dl-color-scheme-darkblue);
-            width: 24px;
-            height: 24px;
-            display: flex;
-          }
-          .home-nav1 {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
-            flex-direction: column;
-          }
-          .home-container01 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            margin-bottom: var(--dl-space-space-threeunits);
-            justify-content: space-between;
-          }
-          .home-close-mobile-menu {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-icon2 {
-            width: 24px;
-            height: 24px;
-          }
           .home-main {
             flex: 0 0 auto;
             width: 100%;
@@ -425,58 +370,58 @@ const Home = (props) => {
             grid-gap: 20px;
             align-items: stretch;
           }
-          .home-container02 {
+          .home-container01 {
             width: 25%;
             align-self: stretch;
           }
-          .home-image01 {
+          .home-image {
             width: 100%;
             height: 100%;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius8);
           }
-          .home-container03 {
+          .home-container02 {
             width: 25%;
             display: flex;
             grid-gap: 20px;
             align-items: stretch;
             flex-direction: column;
           }
-          .home-image02 {
+          .home-image1 {
             width: 100%;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius8);
           }
-          .home-image03 {
+          .home-image2 {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: var(--dl-radius-radius-radius8);
+          }
+          .home-container03 {
+            width: 50%;
+            display: flex;
+            grid-gap: 20px;
+            flex-direction: column;
+          }
+          .home-image3 {
             width: 100%;
             height: 100%;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius8);
           }
           .home-container04 {
-            width: 50%;
-            display: flex;
-            grid-gap: 20px;
-            flex-direction: column;
-          }
-          .home-image04 {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: var(--dl-radius-radius-radius8);
-          }
-          .home-container05 {
             width: 100%;
             display: flex;
             grid-gap: 20px;
           }
-          .home-image05 {
+          .home-image4 {
             flex: 1;
             height: 100%;
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius8);
           }
-          .home-image06 {
+          .home-image5 {
             flex: 1;
             height: 100%;
             object-fit: cover;
@@ -533,7 +478,7 @@ const Home = (props) => {
             width: 30%;
             height: auto;
           }
-          .home-container06 {
+          .home-container05 {
             width: var(--dl-size-size-small);
             height: auto;
             display: flex;
@@ -543,7 +488,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: rgba(182, 71, 47, 0.1);
           }
-          .home-image07 {
+          .home-image6 {
             width: 24px;
             height: var(--dl-size-size-small);
             object-fit: contain;
@@ -568,7 +513,7 @@ const Home = (props) => {
             width: 30%;
             height: auto;
           }
-          .home-container07 {
+          .home-container06 {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
             display: flex;
@@ -578,7 +523,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: rgba(182, 71, 47, 0.1);
           }
-          .home-image08 {
+          .home-image7 {
             width: 24px;
             height: 24px;
             object-fit: contain;
@@ -603,7 +548,7 @@ const Home = (props) => {
             width: 30%;
             height: auto;
           }
-          .home-container08 {
+          .home-container07 {
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
             display: flex;
@@ -613,7 +558,7 @@ const Home = (props) => {
             justify-content: center;
             background-color: rgba(182, 71, 47, 0.1);
           }
-          .home-image09 {
+          .home-image8 {
             width: 24px;
             height: 24px;
             object-fit: contain;
@@ -686,7 +631,7 @@ const Home = (props) => {
             line-height: 61px;
             margin-right: 180px;
           }
-          .home-container09 {
+          .home-container08 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -731,7 +676,7 @@ const Home = (props) => {
             line-height: 61px;
             margin-right: 180px;
           }
-          .home-container10 {
+          .home-container09 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -773,7 +718,7 @@ const Home = (props) => {
             line-height: 61px;
             margin-right: 180px;
           }
-          .home-container11 {
+          .home-container10 {
             flex: 1;
             display: flex;
             align-items: flex-start;
@@ -858,7 +803,7 @@ const Home = (props) => {
             flex-shrink: 0;
             justify-content: space-between;
           }
-          .home-container12 {
+          .home-container11 {
             display: flex;
             align-items: flex-start;
           }
@@ -869,12 +814,6 @@ const Home = (props) => {
             font-weight: 400;
           }
           @media (max-width: 991px) {
-            .home-nav {
-              display: none;
-            }
-            .home-burger-menu {
-              display: flex;
-            }
             .home-heading-container {
               max-width: 100%;
               margin-bottom: 42px;
@@ -882,16 +821,25 @@ const Home = (props) => {
             .home-gallery {
               flex-direction: column;
             }
+            .home-container01 {
+              width: 100%;
+            }
+            .home-image {
+              width: 80%;
+            }
             .home-container02 {
               width: 100%;
+              flex-direction: column;
+            }
+            .home-image1 {
+              width: 80%;
             }
             .home-container03 {
               width: 100%;
-              flex-direction: row;
-            }
-            .home-container04 {
-              width: 100%;
               align-items: stretch;
+            }
+            .home-services {
+              width: 100%;
             }
           }
           @media (max-width: 767px) {
@@ -901,21 +849,21 @@ const Home = (props) => {
             .home-text {
               font-size: 48px;
             }
-            .home-container03 {
+            .home-container02 {
               display: grid;
               grid-template-columns: 1fr 1fr;
             }
-            .home-image02 {
+            .home-image1 {
               height: 100%;
             }
-            .home-container05 {
+            .home-container04 {
               display: grid;
               grid-template-columns: 1fr 1fr;
             }
-            .home-image05 {
+            .home-image4 {
               width: 100%;
             }
-            .home-image06 {
+            .home-image5 {
               width: 100%;
             }
             .home-text22 {
