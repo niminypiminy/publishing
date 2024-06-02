@@ -9,8 +9,23 @@ const About = (props) => {
     <>
       <div className="about-container">
         <Head>
-          <title>About - Creative Agency Page</title>
-          <meta property="og:title" content="About - Creative Agency Page" />
+          <title>About - Robinson & Sroykeeree LP</title>
+          <meta
+            name="description"
+            content="Robinson &amp; Sroykeeree publishes high-quality non-fiction legal books for university students and engaging fiction novels for children."
+          />
+          <meta
+            property="og:title"
+            content="About - Robinson &amp; Sroykeeree LP"
+          />
+          <meta
+            property="og:description"
+            content="Robinson &amp; Sroykeeree publishes high-quality non-fiction legal books for university students and engaging fiction novels for children."
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/9a77d407-87dd-444f-9f67-4caf42256e5b?org_if_sml=1&amp;force_format=original"
+          />
         </Head>
         <div className="about-max-width">
           <Link href="/">
@@ -33,7 +48,7 @@ const About = (props) => {
           <h1 className="about-text">About</h1>
           <span className="about-text1">
             Robinson &amp; Sroykeeree is a reputable publishing company that
-            focuses on producing high-quality non-fiction legal books for
+            focuses on publishing high-quality non-fiction legal books for
             university students and engaging fiction novels for children. Our
             publications often explore educational themes related to law,
             economics, or philosophy. We are dedicated to offering distinctive

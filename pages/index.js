@@ -9,8 +9,20 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Creative Agency Page</title>
-          <meta property="og:title" content="Creative Agency Page" />
+          <title>Robinson & Sroykeeree LP</title>
+          <meta
+            name="description"
+            content="Robinson &amp; Sroykeeree LP is a publishing agency based out of Bangkok Thailand. "
+          />
+          <meta property="og:title" content="Robinson &amp; Sroykeeree LP" />
+          <meta
+            property="og:description"
+            content="Robinson &amp; Sroykeeree LP is a publishing agency based out of Bangkok Thailand. "
+          />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/9a77d407-87dd-444f-9f67-4caf42256e5b?org_if_sml=1&amp;force_format=original"
+          />
         </Head>
         <header data-role="Header" className="home-header">
           <div className="home-max-width">

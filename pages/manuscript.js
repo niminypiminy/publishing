@@ -9,10 +9,16 @@ const Manuscript = (props) => {
     <>
       <div className="manuscript-container">
         <Head>
-          <title>Manuscript - Creative Agency Page</title>
+          <title>Manuscript - Robinson & Sroykeeree LP</title>
+          <meta name="description" content="Sumbit your manuscript" />
           <meta
             property="og:title"
-            content="Manuscript - Creative Agency Page"
+            content="Manuscript - Robinson &amp; Sroykeeree LP"
+          />
+          <meta property="og:description" content="Sumbit your manuscript" />
+          <meta
+            property="og:image"
+            content="https://aheioqhobo.cloudimg.io/v7/_playground-bucket-v2.teleporthq.io_/c4a2a4b1-73c4-4d0c-8cab-d446c67c6f17/9a77d407-87dd-444f-9f67-4caf42256e5b?org_if_sml=1&amp;force_format=original"
           />
         </Head>
         <div className="manuscript-max-width">

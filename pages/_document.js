@@ -29,6 +29,12 @@ class CustomDocument extends Document {
             href="https://unpkg.com/animate.css@4.1.1/animate.css"
           ></link>
           <link
+            rel="shortcut icon"
+            href="/favicon.ico"
+            type="icon/png"
+            sizes="32x32"
+          ></link>
+          <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
             data-tag="font"
