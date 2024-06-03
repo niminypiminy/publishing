@@ -47,15 +47,13 @@ const About = (props) => {
         <div className="about-container1">
           <h1 className="about-text">About</h1>
           <span className="about-text01">
-            <span className="about-text02">
+            <span>
               We mostly publish non-fiction books in the areas of law,
               philosophy, history, politics, and economics. We also publish
               fiction novels. comic books and children books which include
-              similar themes and subject areas, or discuss important educational
-              topics such as the origin of life, or convey profound
-              philosophical or scientific concepts. Books in other disciplines
-              may be published if they offer distinctive and compelling
-              educational materials for students. 
+              similar themes and subject areas. Books in other disciplines may
+              be published if they offer distinctive and compelling educational
+              materials for students. 
             </span>
             <br></br>
             <br></br>
@@ -147,10 +145,6 @@ const About = (props) => {
             margin-top: var(--dl-space-space-unit);
             font-family: 'Times New Roman';
             font-weight: 400;
-          }
-          .about-text02 {
-            width: 40%;
-            margin-top: var(--dl-space-space-unit);
           }
           .about-footer7 {
             width: 100%;

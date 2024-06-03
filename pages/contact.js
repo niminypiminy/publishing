@@ -43,8 +43,8 @@ const Contact = (props) => {
             <h1 className="contact-text">Contact us</h1>
             <span className="contact-text1">
               <span>
-                Please use this contact form for simple enquiries. To submit
-                your manuscript, please tell us more
+                This contact form for simple enquiries. To submit your
+                manuscript, please tell us more
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -70,7 +70,7 @@ const Contact = (props) => {
             />
             <textarea
               target
-              placeholder="Please describe your manuscript..."
+              placeholder="How can we help you?"
               className="contact-textarea textarea"
             ></textarea>
             <button type="button" className="contact-button button">
